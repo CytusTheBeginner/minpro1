@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- bs icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- icons web -->
+    <link rel="icon" type="image" href="img/" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Puskesmas MinPro</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Beranda </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#pengantar">Pengantar</a></li>
+                <li><a class="dropdown-item" href="#galeri">Galeri</a></li>
+                <li><a class="dropdown-item" href="#lokasi">Lokasi Puskesmas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./profile-pages/visi-misi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item" href="./profile-pages/struktur.html">Struktur Organisasi</a></li>
+                <li><a class="dropdown-item" href="./profile-pages/maklumat.html">Maklumat Pelayanan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Jenis Pelayanan </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./pelayanan-pages/jadwal.html">Jadwal Pelayanan</a></li>
+                <li><a class="dropdown-item" href="./pelayanan-pages/jadwal.html">Pendaftaran Online</a></li>
+                <li><a class="dropdown-item" href="./pelayanan-pages/restribusi.html">Restribusi Jasa Pelayanan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Standar Pelayanan </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./standar-pages/poli-umum.html">Poli Umum</a></li>
+                <li><a class="dropdown-item" href="./standar-pages/poli-gigi.html">Poli Gigi</a></li>
+                <li><a class="dropdown-item" href="./standar-pages/konseling.html">Konseling</a></li>
+                <li><a class="dropdown-item" href="./standar-pages/kesehatan.html">Kesehatan Ibu dan Anak</a></li>
+                <li><a class="dropdown-item" href="./standar-pages/imunisasi.html">Imunisasi</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="laboratorium.html">Laboratorium</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- banner -->
+    <section class="pt-5 pb-3 mt-5">
+      <div id="carouselExampleInterval" class="carousel slide pb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1200">
+            <img src="img/1.png" class="d-block w-100" alt="Banner Iklan" />
+          </div>
+          <div class="carousel-item" data-bs-interval="1200">
+            <img src="img/2.png" class="d-block w-100" alt="Banner Iklan" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- Pengantar start -->
+    <section class="pengantar pt-5 pb-5" id="pengantar">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-md-8 pt-2">
+            <img src="img/3.jpg" class="img-fluid pb-3" alt="" />
+            <h2 class="text-center fw-bold">Selamat Datang di Website Resmi Puskesmas MinPro</h2>
+            <p class="text1 pt-3">Website ini dibuat untuk mengenalkan Puskesmas MinPro kepada masyarakat luas. Berisi berbagai macam informasi terkait baik pelayanan maupun kegiatan yang ada di Puskesmas MinPro.</p>
+            <br />
+            <p class="text1">
+              Pengunjung website ini juga dapat menggunakan fitur <a href="">TANYA DOKTER</a> untuk mengetahui informasi terkait dengan penyakit, tindakan dan pengobatan tanpa perlu bertemu dokter secara langsung. Kami akan usahakan
+              membalas pertanyaan anda secepat mungkin.
+            </p>
+            <br />
+            <p class="text1">
+              Kami harapkan anda bersedia menghubungi kami baik melalui telepon, email, maupun formulir kontak pada halaman Hubungi Kami untuk memberikan masukan-masukan demi pengembangan pada pelayanan kami. Terima kasih. ANDA SEHAT, KAMI
+              SENANG!
+            </p>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Pengantar end -->
+
+    <!-- Galeri -->
+    <section class="gridimage pt-4" id="galeri">
+      <div class="container">
+        <div class="pt-3">
+          <h1 class="text-center pt-5 pb-4">Galeri</h1>
+        </div>
+        <div class="row p-0 m-0">
+          <div class="col-md-4 pb-3 pl-2">
+            <img src="img/galeri-1.jpg" alt="" class="w-100 h-100 imgwork" />
+          </div>
+          <div class="col-md-5 pb-3 pl-2">
+            <img src="img/galeri-2.jpg" alt="" class="w-100 h-100 imgwork" />
+          </div>
+          <div class="col-md-3 pb-3 pl-2">
+            <img src="img/galeri-4.jpg" alt="" class="w-100 h-100 imgwork" />
+          </div>
+        </div>
+        <div class="row p-0 m-0">
+          <div class="col-md-4 pb-3 pl-2">
+            <img src="img/galeri-7.jpg" alt="" class="w-100 h-100 imgwork" />
+          </div>
+          <div class="col-md-8 pb-3 pl-2">
+            <div class="row">
+              <div class="col-md-8">
+                <img src="img/galeri-3.jpg" alt="" class="w-100 h-100 imgwork" />
+              </div>
+              <div class="col-md-4">
+                <img src="img/galeri-8.jpg" alt="" class="w-100 h-100 imgwork" />
+              </div>
+
+              <div class="col-md-4 pt-3">
+                <img src="img/galeri-5.jpg" alt="" class="w-100 h-100 imgwork" />
+              </div>
+              <div class="col-md-8 pt-3">
+                <img src="img/galeri 6.jpg" alt="" class="w-100 h-100 imgwork" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Galeri end -->
+
+    <!-- lokasi -->
+    <section class="pt-5 pb-5" id="lokasi">
+      <div class="container">
+        <h1 class="text-center pt-5 pb-3">Lokasi Puskesmas</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.324825359454!2d104.49193987482859!3d0.901170399090114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d96d6cc0d864d9%3A0xd002a27d6ed55224!2sPuskesmas%20Mekar%20Baru!5e0!3m2!1sen!2sid!4v1683956588161!5m2!1sen!2sid"
+          width="100%"
+          height="500rem"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- lokasi end -->
+
+    <!-- footer -->
+    <footer class="d-flex justify-content-center text-light">
+      <div class="container align-items-center">
+        <div class="row">
+          <div class="col-md-3 mx-auto py-2">
+            <div class="pt-3">
+              <p class="fw-bold text-footer">Motto Kami</p>
+            </div>
+            <div>
+              <p>
+                Terdepan <br />
+                Semangat <br />
+                Melayani Dengan Hati
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto py-2">
+            <div class="pt-3">
+              <p class="fw-bold text-footer">Jam Pelayanan</p>
+            </div>
+            <div>
+              <p>
+                Jam Pelayanan Puskesmas <br />
+                Senin-Kamis : 07.30-15.00 WIB <br />
+                Jumat : 07.30-15.30 WIB <br />
+                Unit Pelayanan Bersalin 24 Jam
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto py-2">
+            <div class="pt-3">
+              <p class="fw-bold text-footer">Hubungi Kami</p>
+            </div>
+            <div>
+              <p>
+                Jl. Handoyo Putro KM.8 <br />
+                email : pkminpro@gmail.com <br />
+                no hp : +6281213141516
+              </p>
+            </div>
+            <div class="social">
+              <a href=""><i class="bi bi-whatsapp px-2"></i></a>
+              <a href=""><i class="bi bi-instagram px-2"></i></a>
+              <a href=""><i class="bi bi-twitter px-2"></i></a>
+              <a href=""><i class="bi bi-tiktok px-2"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto py-2">
+            <div class="pt-3">
+              <p class="fw-bold text-footer">Tentang Kami</p>
+            </div>
+            <div>
+              <p class="p-footer">
+                Saat ini Puskesmas MinPro dikepalai oleh dr. Hendri, S.Kom, M.Gizi dan dr. Rio, S.Kom, M.Gizi Mereka menjabat sejak April 2023 sampai dengan saat ini. Dibawah kepemimpinan mereka Puskesmas MinPro berusaha melakukan banyak
+                inovasi pelayanan guna terpenuhinya kebutuhan kesehatan pasien.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- button up -->
+    <button onclick="scrollToTop()" id="btnBackToTop" title="Kembali ke Atas"><i class="bi bi-arrow-up"></i></button>
+    <!-- button up end -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
